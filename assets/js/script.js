@@ -7,7 +7,7 @@ function actividad() {
         let actividad = document.getElementById('select')[0].textContent;
 
         document.getElementById('imagen').innerHTML = ` <div class="card mb-3 w-75 mx-auto mt-5">
-                                                            <img id="imagenuno" src="./assets/img/${actividad}.jpg" class="card-img-top" alt="${actividad}.jpg" style="z-index:0;">
+                                                            <img id="imagenuno" src="./assets/img/${actividad}.webp" class="card-img-top" alt="${actividad}.webp" style="z-index:0;">
                                                             <img id="imagendos" src="./assets/img/backdrop.png" class="card-img-top">
                                                             <div id="imagentexto" class="center container">
                                                                 <h3>${actividad.toUpperCase()}</h3>
@@ -35,7 +35,7 @@ function actividad() {
         let actividad = document.getElementById('select')[1].textContent;
 
         document.getElementById('imagen').innerHTML = ` <div class="card mb-3 w-75 mx-auto mt-5">
-                                                            <img id="imagenuno" src="./assets/img/${actividad}.jpg" class="card-img-top" alt="${actividad}.jpg" style="z-index:0;">
+                                                            <img id="imagenuno" src="./assets/img/${actividad}.webp" class="card-img-top" alt="${actividad}.webp" style="z-index:0;">
                                                             <img id="imagendos" src="./assets/img/backdrop.png" class="card-img-top">
                                                             <div id="imagentexto" class="center container">
                                                                 <h3>${actividad.toUpperCase()}</h3>
@@ -63,7 +63,7 @@ function actividad() {
         let actividad = document.getElementById('select')[2].textContent;
 
         document.getElementById('imagen').innerHTML = ` <div class="card mb-3 w-75 mx-auto mt-5">
-                                                            <img id="imagenuno" src="./assets/img/${actividad}.jpg" class="card-img-top" alt="${actividad}.jpg" style="z-index:0;">
+                                                            <img id="imagenuno" src="./assets/img/${actividad}.webp" class="card-img-top" alt="${actividad}.webp" style="z-index:0;">
                                                             <img id="imagendos" src="./assets/img/backdrop.png" class="card-img-top">
                                                             <div id="imagentexto" class="center container">
                                                                 <h3>${actividad.toUpperCase()}</h3>
