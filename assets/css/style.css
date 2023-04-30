@@ -1,0 +1,29 @@
+.center {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    z-index: 2;
+}
+
+img {
+    position: absolute;
+}
+
+#imagendos {
+    opacity: 35%;
+    z-index: 1;
+    display: none;
+}
+
+
+#descripcion {
+    margin-top: 31vh;
+}
+
+#contenido {
+    text-align: justify;
+}
+#imagentexto{
+    display:none;
+}
